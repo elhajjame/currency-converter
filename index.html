@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="converter">
+    <h2>Currency Converter</h2>
+
+    <div class="field">
+      <label>Amount</label>
+      <input type="number" placeholder="Enter amount">
+    </div>
+
+    <div class="row">
+      <div class="field">
+        <label>From</label>
+        <select>
+          <option>USD</option>
+          <option>EUR</option>
+          <option>MAD</option>
+
+        </select>
+      </div>
+
+      <div class="swap">⇄</div>
+
+      <div class="field">
+        <label>To</label>
+        <select>
+          <option>EUR</option>
+          <option>USD</option>
+          <option>MAD</option>
+        </select>
+      </div>
+    </div>
+
+    <button>Convert</button>
+
+    <div class="result">
+      <span>Converted Amount</span>
+      <h3>0.00</h3>
+    </div>
+  </div>
+
+</body>
+</html>
