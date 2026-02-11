@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Currency Converter</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <div class="converter">
@@ -19,9 +21,9 @@
       <div class="field">
         <label>From</label>
         <select class="from-currency">
-          <option>USD</option>
-          <option>EUR</option>
-          <option>MAD</option>
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="MAD">MAD</option>
 
         </select>
       </div>
@@ -30,10 +32,10 @@
 
       <div class="field">
         <label>To</label>
-        <select class="select-two">
-          <option>EUR</option>
-          <option>USD</option>
-          <option>MAD</option>
+        <select class="to-currency">
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="MAD">MAD</option>
         </select>
       </div>
     </div>
@@ -45,6 +47,7 @@
       <h3 id="result">0.00</h3>
     </div>
   </div>
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>
