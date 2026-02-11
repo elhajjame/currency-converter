@@ -12,13 +12,13 @@
 
     <div class="field">
       <label>Amount</label>
-      <input type="number" placeholder="Enter amount">
+      <input class="input-amount" type="number" placeholder="Enter amount">
     </div>
 
     <div class="row">
       <div class="field">
         <label>From</label>
-        <select>
+        <select class="from-currency">
           <option>USD</option>
           <option>EUR</option>
           <option>MAD</option>
@@ -30,7 +30,7 @@
 
       <div class="field">
         <label>To</label>
-        <select>
+        <select class="select-two">
           <option>EUR</option>
           <option>USD</option>
           <option>MAD</option>
@@ -38,13 +38,13 @@
       </div>
     </div>
 
-    <button>Convert</button>
+    <button class="convert-btn">Convert</button>
 
     <div class="result">
       <span>Converted Amount</span>
-      <h3>0.00</h3>
+      <h3 id="result">0.00</h3>
     </div>
   </div>
-
+<script src="script.js"></script>
 </body>
 </html>
